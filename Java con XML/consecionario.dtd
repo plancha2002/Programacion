@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/consecionario.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE consecionario SYSTEM "consecionario.dtd">
+
+    <consecionario>
+    ...
+    </consecionario>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT consecionario (Coches)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Coches (Coche)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Coche (Matricula|Marca|Precio)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Matricula (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Marca (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Precio (#PCDATA)>

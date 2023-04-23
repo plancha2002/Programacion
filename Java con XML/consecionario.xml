@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><consecionario>
+    <Coches>
+        <Coche>
+            <Matricula>1111AAA</Matricula>
+            <Marca>AUDI</Marca>
+            <Precio>30000</Precio>
+        </Coche>
+    </Coches>
+</consecionario>
