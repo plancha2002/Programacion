@@ -52,6 +52,9 @@ public class main {
             main.turno('X');
             contador++;
 
+            
+            // S: una funcion solo se encarga de una cosa
+            //coger bloque de codigo y hacerla funcion
             if (contador > 8){
                 System.out.println("Quiere jugar otravez? 0 = no. 1 = sí.");
                 opcion = input.nextInt();
